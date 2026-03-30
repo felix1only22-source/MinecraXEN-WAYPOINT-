@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "xenwaypoints",
+  "version": "${version}",
+  "name": "XenWaypoints",
+  "description": "Simple waypoint HUD mod. N = Set waypoint, B = Toggle display.",
+  "authors": ["XenBravo"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.xenbravo.waypointmod.WaypointMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.10",
+    "java": ">=21"
+  }
+}
